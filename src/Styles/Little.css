@@ -1,0 +1,46 @@
+.little{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.descrip{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+}
+
+.descrip > h1 {
+    text-transform:uppercase;
+    color: black;
+    font-size: 70px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.descrip > h4 {
+    color: black;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0px;
+}
+.descrip > p {
+    color: black;
+}
+/* forme et style du cadre */
+.cadre1{
+    background-color: #F4CE14;
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    background-image: url(../img/MarioandAdrian.jpg);
+    background-size: cover;
+    background-position: 70%;
+}
+/* disposition du cadre */
+.cadre1{
+    margin-top: 40px;
+    grid-column-end: 7;
+    grid-row-start: 1;
+}

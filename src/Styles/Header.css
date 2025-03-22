@@ -1,0 +1,52 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: #495E57;
+    height: 300px;
+}
+
+.fond{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+}
+
+.fond > h1 {
+    text-transform:uppercase;
+    color: #F4CE14;
+    font-size: 70px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.fond > h4 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0px;
+}
+.fond > p {
+    color: white;
+}
+/* forme et style du cadre */
+.cadre{
+    background-color: #F4CE14;
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    background-image: url(../img/restauranfood.jpg);
+    background-size: cover;
+}
+/* disposition du cadre */
+.cadre{
+    margin-top: 40px;
+    grid-column-end: 7;
+    grid-row-start: 1;
+}
+button{
+    height: 40px;
+    width: 200px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #F4CE14;
+}

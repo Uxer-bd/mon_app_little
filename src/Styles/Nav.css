@@ -1,0 +1,17 @@
+nav{
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: repeat(7,1fr);
+}
+
+Link{
+    text-decoration: none;
+}
+.onglet{
+    height: 40px;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,66 @@
+.temoignage{
+    background-color: #495E57;
+    height: 300px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 50px);
+}
+
+.temoignage > h1{
+    color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.temoignage > .cellule{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cellule > div {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.card > .photo{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    /* width: 80px;
+    height: 80px; */
+    background-image: url(../img/1.jpeg);
+    background-size: cover;
+    background-color: #495E57;
+    margin-top: 10px;
+}
+.card > .nom {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    margin: 0px;
+    padding: 0px;
+}
+.card > p {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    padding: 0px;
+    margin: 0px;
+}

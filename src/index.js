@@ -11,7 +11,7 @@ root.render(
     <meta name="og:title" content="Restaurant Little lemon"/>
     <meta name="og:description" content="Site de restaurant spécialiste des mets avec possiblité de réserver à l'avance pour une expérience hors du commun"/>
     <meta name="og:image" content=""/>
-    <App />
+    <App/>
   </React.StrictMode>
 );
 
