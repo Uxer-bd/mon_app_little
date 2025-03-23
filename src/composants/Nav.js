@@ -7,13 +7,13 @@ const Nav = () => {
     return (
         <nav>
             <div className='onglet'>
-                <div><img src={Logo}/></div>
-                <div>Accueil</div>
-                <div>A propos de</div>
-                <div>Menus</div>
-                <div>Reservation</div>
-                <div>Commande en ligne</div>
-                <div>Connexion</div>
+                <div><a href='/'><img src={Logo}/></a></div>
+                <div><a href='/'>Accueil</a></div>
+                <div><a href='#'>A propos de</a></div>
+                <div><a href='#'>Menus</a></div>
+                <div><a href='/reserve'>Reservation</a></div>
+                <div><a href='#'>Commande en ligne</a></div>
+                <div><a href='#'>Connexion</a></div>
             </div>
         </nav>
     );

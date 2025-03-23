@@ -1,0 +1,51 @@
+.entete_reserver{
+    height: 300px;
+    background-color:#495E57 ;
+    opacity: 100%;
+    background-image: url(../img/restaurant.jpg);
+    background-size: cover;
+    background-position: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entete_reserver > p {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    margin-top: 50px;
+}
+
+form > input, select {
+    height: 50px;
+    width: 500px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+form > label {
+    margin-top: 30px;
+}
+
+form > button{
+    height: 50px;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.corps > h4 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}

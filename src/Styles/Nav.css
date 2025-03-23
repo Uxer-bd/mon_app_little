@@ -4,8 +4,9 @@ nav{
     grid-template-columns: repeat(7,1fr);
 }
 
-Link{
+div > a{
     text-decoration: none;
+    color: black;
 }
 .onglet{
     height: 40px;

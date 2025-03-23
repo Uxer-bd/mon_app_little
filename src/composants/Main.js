@@ -74,8 +74,8 @@ const Main = () => {
                 <section className='little'>
                 </section>
             </div>
-            <Little/>
             <Temoignage/>
+            <Little/>
         </div>
     );
 };
